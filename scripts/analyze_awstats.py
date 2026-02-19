@@ -4,7 +4,7 @@ import argparse
 import os
 from urllib.parse import unquote
 
-UBUNTU_DISTROS = ['precise', 'quantal', 'raring', 'saucy', 'trusty', 'utopic', 'vivid', 'wily', 'xenial', 'yakkety', 'zesty', 'artful', 'bionic', 'cosmic', 'disco', 'eoan', 'focal', 'groovy', 'hirsute', 'impish', 'jammy', 'kinetic', 'lunar', 'mantic', 'noble']
+UBUNTU_DISTROS = ['precise', 'quantal', 'raring', 'saucy', 'trusty', 'utopic', 'vivid', 'wily', 'xenial', 'yakkety', 'zesty', 'artful', 'bionic', 'cosmic', 'disco', 'eoan', 'focal', 'hirsute', 'impish', 'jammy', 'mantic', 'noble']
 DEBIAN_DISTROS = ['jessie', 'stretch', 'buster', 'bullseye', 'bookworm', 'trixie']
 OS_DISTROS = UBUNTU_DISTROS + DEBIAN_DISTROS
 ARCHES = ['i386', 'amd64', 'armhf', 'arm64', 'source']
